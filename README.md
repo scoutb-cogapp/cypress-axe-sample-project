@@ -21,4 +21,8 @@ update cypress/support/e2e.js file to include the cypress-axe commands by adding
 
 e2e/spec.cy.js contains a whole number of working calls to cypress-axe that do a number of different things.
 
-support/commands.js contains a couple of helper functions that write test results to files.
+support/commands.js contains a couple of helper functions that write test results to files. only run one at a time and comment out the others. these can be adjusted to contain exactly the data that we want in our summary.
+
+## Plugins
+
+added a task to plugins/cypress.config.js that makes it possible to check if a directory exists. this is used to write test results to a file inside a subdirectory (and create this dir if it doesn't exist)
