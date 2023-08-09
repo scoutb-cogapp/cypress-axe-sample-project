@@ -1,0 +1,1203 @@
+[
+  {
+    "id": "color-contrast",
+    "impact": "serious",
+    "tags": [
+      "cat.color",
+      "wcag2aa",
+      "wcag143",
+      "ACT",
+      "TTv5",
+      "TT13.c"
+    ],
+    "description": "Ensures the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+    "help": "Elements must meet minimum color contrast ratio thresholds",
+    "helpUrl": "https://dequeuniversity.com/rules/axe/4.7/color-contrast?application=axeAPI",
+    "nodes": [
+      {
+        "any": [
+          {
+            "id": "color-contrast",
+            "data": {
+              "fgColor": "#ffffff",
+              "bgColor": "#0ebac5",
+              "contrastRatio": 2.37,
+              "fontSize": "14.6pt (19.5px)",
+              "fontWeight": "bold",
+              "messageKey": null,
+              "expectedContrastRatio": "3:1"
+            },
+            "relatedNodes": [
+              {
+                "html": "<h5 class=\"flex-shrink-0 m-0 d-flex align-items-center gutters bg-primary text-primary-inverse\">Quick Links <a data-toggle=\"mz-pure-drawer\" class=\"fas fa-times text-reset ml-auto\" href=\"#mz-component-162614767\" aria-label=\"close\"></a></h5>",
+                "target": [
+                  "#mz-component-162614767 > .bg-primary.text-primary-inverse"
+                ]
+              }
+            ],
+            "impact": "serious",
+            "message": "Element has insufficient color contrast of 2.37 (foreground color: #ffffff, background color: #0ebac5, font size: 14.6pt (19.5px), font weight: bold). Expected contrast ratio of 3:1"
+          }
+        ],
+        "all": [],
+        "none": [],
+        "impact": "serious",
+        "html": "<h5 class=\"flex-shrink-0 m-0 d-flex align-items-center gutters bg-primary text-primary-inverse\">Quick Links <a data-toggle=\"mz-pure-drawer\" class=\"fas fa-times text-reset ml-auto\" href=\"#mz-component-162614767\" aria-label=\"close\"></a></h5>",
+        "target": [
+          "#mz-component-162614767 > .bg-primary.text-primary-inverse"
+        ],
+        "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 2.37 (foreground color: #ffffff, background color: #0ebac5, font size: 14.6pt (19.5px), font weight: bold). Expected contrast ratio of 3:1"
+      },
+      {
+        "any": [
+          {
+            "id": "color-contrast",
+            "data": {
+              "fgColor": "#ffffff",
+              "bgColor": "#0ebac5",
+              "contrastRatio": 2.37,
+              "fontSize": "11.7pt (15.6px)",
+              "fontWeight": "bold",
+              "messageKey": null,
+              "expectedContrastRatio": "4.5:1"
+            },
+            "relatedNodes": [
+              {
+                "html": "<a href=\"https://ecommerce-playground.lambdatest.io/index.php?route=checkout/cart\" target=\"_self\" class=\"icon-right both btn btn-primary btn-lg btn-block\" role=\"button\"> <i class=\"icon fas fa-long-arrow-alt-right\"></i> Edit cart</a>",
+                "target": [
+                  ".icon-right.btn-primary.btn-block"
+                ]
+              }
+            ],
+            "impact": "serious",
+            "message": "Element has insufficient color contrast of 2.37 (foreground color: #ffffff, background color: #0ebac5, font size: 11.7pt (15.6px), font weight: bold). Expected contrast ratio of 4.5:1"
+          }
+        ],
+        "all": [],
+        "none": [],
+        "impact": "serious",
+        "html": "<a href=\"https://ecommerce-playground.lambdatest.io/index.php?route=checkout/cart\" target=\"_self\" class=\"icon-right both btn btn-primary btn-lg btn-block\" role=\"button\"> <i class=\"icon fas fa-long-arrow-alt-right\"></i> Edit cart</a>",
+        "target": [
+          ".icon-right.btn-primary.btn-block"
+        ],
+        "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 2.37 (foreground color: #ffffff, background color: #0ebac5, font size: 11.7pt (15.6px), font weight: bold). Expected contrast ratio of 4.5:1"
+      },
+      {
+        "any": [
+          {
+            "id": "color-contrast",
+            "data": {
+              "fgColor": "#ffffff",
+              "bgColor": "#0ebac5",
+              "contrastRatio": 2.37,
+              "fontSize": "11.7pt (15.6px)",
+              "fontWeight": "bold",
+              "messageKey": null,
+              "expectedContrastRatio": "4.5:1"
+            },
+            "relatedNodes": [
+              {
+                "html": "<button type=\"submit\" class=\"type-text\">Search</button>",
+                "target": [
+                  ".type-text"
+                ]
+              }
+            ],
+            "impact": "serious",
+            "message": "Element has insufficient color contrast of 2.37 (foreground color: #ffffff, background color: #0ebac5, font size: 11.7pt (15.6px), font weight: bold). Expected contrast ratio of 4.5:1"
+          }
+        ],
+        "all": [],
+        "none": [],
+        "impact": "serious",
+        "html": "<button type=\"submit\" class=\"type-text\">Search</button>",
+        "target": [
+          ".type-text"
+        ],
+        "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 2.37 (foreground color: #ffffff, background color: #0ebac5, font size: 11.7pt (15.6px), font weight: bold). Expected contrast ratio of 4.5:1"
+      },
+      {
+        "any": [
+          {
+            "id": "color-contrast",
+            "data": {
+              "fgColor": "#ffffff",
+              "bgColor": "#f22828",
+              "contrastRatio": 4.1,
+              "fontSize": "10.2pt (13.65px)",
+              "fontWeight": "bold",
+              "messageKey": null,
+              "expectedContrastRatio": "4.5:1"
+            },
+            "relatedNodes": [
+              {
+                "html": "<div id=\"entry_217837\" class=\"entry-section container-fluid \">",
+                "target": [
+                  "#entry_217837"
+                ]
+              }
+            ],
+            "impact": "serious",
+            "message": "Element has insufficient color contrast of 4.1 (foreground color: #ffffff, background color: #f22828, font size: 10.2pt (13.65px), font weight: bold). Expected contrast ratio of 4.5:1"
+          }
+        ],
+        "all": [],
+        "none": [],
+        "impact": "serious",
+        "html": "<strong>This is a dummy website for Web Automation Testing</strong>",
+        "target": [
+          "#entry_217838 > .font-size-sm > strong"
+        ],
+        "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 4.1 (foreground color: #ffffff, background color: #f22828, font size: 10.2pt (13.65px), font weight: bold). Expected contrast ratio of 4.5:1"
+      },
+      {
+        "any": [
+          {
+            "id": "color-contrast",
+            "data": {
+              "fgColor": "#0ebac5",
+              "bgColor": "#ffffff",
+              "contrastRatio": 2.37,
+              "fontSize": "11.7pt (15.6px)",
+              "fontWeight": "bold",
+              "messageKey": null,
+              "expectedContrastRatio": "4.5:1"
+            },
+            "relatedNodes": [
+              {
+                "html": "<div class=\"content\" id=\"common-home\">",
+                "target": [
+                  "#common-home"
+                ]
+              }
+            ],
+            "impact": "serious",
+            "message": "Element has insufficient color contrast of 2.37 (foreground color: #0ebac5, background color: #ffffff, font size: 11.7pt (15.6px), font weight: bold). Expected contrast ratio of 4.5:1"
+          }
+        ],
+        "all": [],
+        "none": [],
+        "impact": "serious",
+        "html": "<a href=\"#\" class=\"btn btn-lg btn-outline-primary ml-lg-auto flex-shrink-0\">SHOP NOW</a>",
+        "target": [
+          ".ml-lg-auto"
+        ],
+        "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 2.37 (foreground color: #0ebac5, background color: #ffffff, font size: 11.7pt (15.6px), font weight: bold). Expected contrast ratio of 4.5:1"
+      },
+      {
+        "any": [
+          {
+            "id": "color-contrast",
+            "data": {
+              "fgColor": "#0ebac5",
+              "bgColor": "#ffffff",
+              "contrastRatio": 2.37,
+              "fontSize": "11.7pt (15.6px)",
+              "fontWeight": "bold",
+              "messageKey": null,
+              "expectedContrastRatio": "4.5:1"
+            },
+            "relatedNodes": [
+              {
+                "html": "<div class=\"content\" id=\"common-home\">",
+                "target": [
+                  "#common-home"
+                ]
+              }
+            ],
+            "impact": "serious",
+            "message": "Element has insufficient color contrast of 2.37 (foreground color: #0ebac5, background color: #ffffff, font size: 11.7pt (15.6px), font weight: bold). Expected contrast ratio of 4.5:1"
+          }
+        ],
+        "all": [],
+        "none": [],
+        "impact": "serious",
+        "html": "<a href=\"#\" class=\"btn btn-lg btn-outline-primary flex-shrink-0 ml-md-auto\">SHOP NOW</a>",
+        "target": [
+          ".ml-md-auto"
+        ],
+        "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 2.37 (foreground color: #0ebac5, background color: #ffffff, font size: 11.7pt (15.6px), font weight: bold). Expected contrast ratio of 4.5:1"
+      },
+      {
+        "any": [
+          {
+            "id": "color-contrast",
+            "data": {
+              "fgColor": "#0ebac5",
+              "bgColor": "#ffffff",
+              "contrastRatio": 2.37,
+              "fontSize": "14.6pt (19.5px)",
+              "fontWeight": "bold",
+              "messageKey": null,
+              "expectedContrastRatio": "3:1"
+            },
+            "relatedNodes": [
+              {
+                "html": "<div class=\"content\" id=\"common-home\">",
+                "target": [
+                  "#common-home"
+                ]
+              }
+            ],
+            "impact": "serious",
+            "message": "Element has insufficient color contrast of 2.37 (foreground color: #0ebac5, background color: #ffffff, font size: 14.6pt (19.5px), font weight: bold). Expected contrast ratio of 3:1"
+          }
+        ],
+        "all": [],
+        "none": [],
+        "impact": "serious",
+        "html": "<a class=\"nav-link icon-left active\" data-toggle=\"tab\" href=\"#mz-product-tab-39213264-0\"> Popular</a>",
+        "target": [
+          "a[href=\"#mz-product-tab-39213264-0\"]"
+        ],
+        "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 2.37 (foreground color: #0ebac5, background color: #ffffff, font size: 14.6pt (19.5px), font weight: bold). Expected contrast ratio of 3:1"
+      },
+      {
+        "any": [
+          {
+            "id": "color-contrast",
+            "data": {
+              "fgColor": "#adb5bd",
+              "bgColor": "#ffffff",
+              "contrastRatio": 2.07,
+              "fontSize": "14.6pt (19.5px)",
+              "fontWeight": "bold",
+              "messageKey": null,
+              "expectedContrastRatio": "3:1"
+            },
+            "relatedNodes": [
+              {
+                "html": "<div class=\"content\" id=\"common-home\">",
+                "target": [
+                  "#common-home"
+                ]
+              }
+            ],
+            "impact": "serious",
+            "message": "Element has insufficient color contrast of 2.07 (foreground color: #adb5bd, background color: #ffffff, font size: 14.6pt (19.5px), font weight: bold). Expected contrast ratio of 3:1"
+          }
+        ],
+        "all": [],
+        "none": [],
+        "impact": "serious",
+        "html": "<a class=\"nav-link icon-left\" data-toggle=\"tab\" href=\"#mz-product-tab-39213264-1\"> Latest</a>",
+        "target": [
+          "a[href=\"#mz-product-tab-39213264-1\"]"
+        ],
+        "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 2.07 (foreground color: #adb5bd, background color: #ffffff, font size: 14.6pt (19.5px), font weight: bold). Expected contrast ratio of 3:1"
+      },
+      {
+        "any": [
+          {
+            "id": "color-contrast",
+            "data": {
+              "fgColor": "#adb5bd",
+              "bgColor": "#ffffff",
+              "contrastRatio": 2.07,
+              "fontSize": "14.6pt (19.5px)",
+              "fontWeight": "bold",
+              "messageKey": null,
+              "expectedContrastRatio": "3:1"
+            },
+            "relatedNodes": [
+              {
+                "html": "<div class=\"content\" id=\"common-home\">",
+                "target": [
+                  "#common-home"
+                ]
+              }
+            ],
+            "impact": "serious",
+            "message": "Element has insufficient color contrast of 2.07 (foreground color: #adb5bd, background color: #ffffff, font size: 14.6pt (19.5px), font weight: bold). Expected contrast ratio of 3:1"
+          }
+        ],
+        "all": [],
+        "none": [],
+        "impact": "serious",
+        "html": "<a class=\"nav-link icon-left\" data-toggle=\"tab\" href=\"#mz-product-tab-39213264-2\"> Best seller</a>",
+        "target": [
+          "a[href=\"#mz-product-tab-39213264-2\"]"
+        ],
+        "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 2.07 (foreground color: #adb5bd, background color: #ffffff, font size: 14.6pt (19.5px), font weight: bold). Expected contrast ratio of 3:1"
+      },
+      {
+        "any": [
+          {
+            "id": "color-contrast",
+            "data": {
+              "fgColor": "#ffffff",
+              "bgColor": "#0ebac5",
+              "contrastRatio": 2.37,
+              "fontSize": "10.2pt (13.65px)",
+              "fontWeight": "normal",
+              "messageKey": null,
+              "expectedContrastRatio": "4.5:1"
+            },
+            "relatedNodes": [
+              {
+                "html": "<span class=\"timestamp\"><i class=\"icon fas fa-calendar\"></i> 25 Feb 2019</span>",
+                "target": [
+                  ".swiper-slide-active[aria-label=\"1 / 10\"][role=\"group\"] > .article-thumb.image-top > .caption > .metadata > .timestamp"
+                ]
+              }
+            ],
+            "impact": "serious",
+            "message": "Element has insufficient color contrast of 2.37 (foreground color: #ffffff, background color: #0ebac5, font size: 10.2pt (13.65px), font weight: normal). Expected contrast ratio of 4.5:1"
+          }
+        ],
+        "all": [],
+        "none": [],
+        "impact": "serious",
+        "html": "<span class=\"timestamp\"><i class=\"icon fas fa-calendar\"></i> 25 Feb 2019</span>",
+        "target": [
+          ".swiper-slide-active[aria-label=\"1 / 10\"][role=\"group\"] > .article-thumb.image-top > .caption > .metadata > .timestamp"
+        ],
+        "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 2.37 (foreground color: #ffffff, background color: #0ebac5, font size: 10.2pt (13.65px), font weight: normal). Expected contrast ratio of 4.5:1"
+      },
+      {
+        "any": [
+          {
+            "id": "color-contrast",
+            "data": {
+              "fgColor": "#ffffff",
+              "bgColor": "#0ebac5",
+              "contrastRatio": 2.37,
+              "fontSize": "10.2pt (13.65px)",
+              "fontWeight": "normal",
+              "messageKey": null,
+              "expectedContrastRatio": "4.5:1"
+            },
+            "relatedNodes": [
+              {
+                "html": "<span class=\"timestamp\"><i class=\"icon fas fa-calendar\"></i> 25 Feb 2019</span>",
+                "target": [
+                  ".swiper-slide-next[aria-label=\"2 / 10\"][role=\"group\"] > .article-thumb.image-top > .caption > .metadata > .timestamp"
+                ]
+              }
+            ],
+            "impact": "serious",
+            "message": "Element has insufficient color contrast of 2.37 (foreground color: #ffffff, background color: #0ebac5, font size: 10.2pt (13.65px), font weight: normal). Expected contrast ratio of 4.5:1"
+          }
+        ],
+        "all": [],
+        "none": [],
+        "impact": "serious",
+        "html": "<span class=\"timestamp\"><i class=\"icon fas fa-calendar\"></i> 25 Feb 2019</span>",
+        "target": [
+          ".swiper-slide-next[aria-label=\"2 / 10\"][role=\"group\"] > .article-thumb.image-top > .caption > .metadata > .timestamp"
+        ],
+        "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 2.37 (foreground color: #ffffff, background color: #0ebac5, font size: 10.2pt (13.65px), font weight: normal). Expected contrast ratio of 4.5:1"
+      }
+    ]
+  },
+  {
+    "id": "duplicate-id",
+    "impact": "minor",
+    "tags": [
+      "cat.parsing",
+      "wcag2a",
+      "wcag411"
+    ],
+    "description": "Ensures every id attribute value is unique",
+    "help": "id attribute value must be unique",
+    "helpUrl": "https://dequeuniversity.com/rules/axe/4.7/duplicate-id?application=axeAPI",
+    "nodes": [
+      {
+        "any": [
+          {
+            "id": "duplicate-id",
+            "data": "search",
+            "relatedNodes": [
+              {
+                "html": "<div id=\"search\" class=\"d-flex\">",
+                "target": [
+                  "#entry_217836 > .search-wrapper > form[method=\"GET\"] > .d-flex"
+                ]
+              }
+            ],
+            "impact": "minor",
+            "message": "Document has multiple static elements with the same id attribute: search"
+          }
+        ],
+        "all": [],
+        "none": [],
+        "impact": "minor",
+        "html": "<div id=\"search\" class=\"d-flex\">",
+        "target": [
+          "#entry_217822 > .search-wrapper > form[method=\"GET\"] > .d-flex"
+        ],
+        "failureSummary": "Fix any of the following:\n  Document has multiple static elements with the same id attribute: search"
+      }
+    ]
+  },
+  {
+    "id": "heading-order",
+    "impact": "moderate",
+    "tags": [
+      "cat.semantics",
+      "best-practice"
+    ],
+    "description": "Ensures the order of headings is semantically correct",
+    "help": "Heading levels should only increase by one",
+    "helpUrl": "https://dequeuniversity.com/rules/axe/4.7/heading-order?application=axeAPI",
+    "nodes": [
+      {
+        "any": [
+          {
+            "id": "heading-order",
+            "data": null,
+            "relatedNodes": [],
+            "impact": "moderate",
+            "message": "Heading order invalid"
+          }
+        ],
+        "all": [],
+        "none": [],
+        "impact": "moderate",
+        "html": "<h4 class=\"m-md-0 d-flex align-items-center mb-3\" style=\"font-size: 1.875em\">",
+        "target": [
+          ".m-md-0"
+        ],
+        "failureSummary": "Fix any of the following:\n  Heading order invalid"
+      }
+    ]
+  },
+  {
+    "id": "image-redundant-alt",
+    "impact": "minor",
+    "tags": [
+      "cat.text-alternatives",
+      "best-practice"
+    ],
+    "description": "Ensure image alternative is not repeated as text",
+    "help": "Alternative text of images should not be repeated as text",
+    "helpUrl": "https://dequeuniversity.com/rules/axe/4.7/image-redundant-alt?application=axeAPI",
+    "nodes": [
+      {
+        "any": [],
+        "all": [],
+        "none": [
+          {
+            "id": "duplicate-img-label",
+            "data": null,
+            "relatedNodes": [],
+            "impact": "minor",
+            "message": "Element contains <img> element with alt text that duplicates existing text"
+          }
+        ],
+        "impact": "minor",
+        "html": "<img class=\"figure-img img-fluid lazy-load loader-spinner\" src=\"https://ecommerce-playground.lambdatest.io/image/cache/transparent-150x150.webp\" width=\"150\" height=\"150\" data-src=\"https://ecommerce-playground.lambdatest.io/image/cache/catalog/maza/demo/mz_poco/megastore-2/category/4-150x150.webp\" alt=\"Desktops\">",
+        "target": [
+          "img[alt=\"Desktops\"]"
+        ],
+        "failureSummary": "Fix all of the following:\n  Element contains <img> element with alt text that duplicates existing text"
+      },
+      {
+        "any": [],
+        "all": [],
+        "none": [
+          {
+            "id": "duplicate-img-label",
+            "data": null,
+            "relatedNodes": [],
+            "impact": "minor",
+            "message": "Element contains <img> element with alt text that duplicates existing text"
+          }
+        ],
+        "impact": "minor",
+        "html": "<img class=\"figure-img img-fluid lazy-load loader-spinner\" src=\"https://ecommerce-playground.lambdatest.io/image/cache/transparent-150x150.webp\" width=\"150\" height=\"150\" data-src=\"https://ecommerce-playground.lambdatest.io/image/cache/catalog/maza/demo/mz_poco/megastore-2/category/5-150x150.webp\" alt=\"Laptops\">",
+        "target": [
+          "img[alt=\"Laptops\"]"
+        ],
+        "failureSummary": "Fix all of the following:\n  Element contains <img> element with alt text that duplicates existing text"
+      },
+      {
+        "any": [],
+        "all": [],
+        "none": [
+          {
+            "id": "duplicate-img-label",
+            "data": null,
+            "relatedNodes": [],
+            "impact": "minor",
+            "message": "Element contains <img> element with alt text that duplicates existing text"
+          }
+        ],
+        "impact": "minor",
+        "html": "<img class=\"figure-img img-fluid lazy-load loader-spinner\" src=\"https://ecommerce-playground.lambdatest.io/image/cache/transparent-150x150.webp\" width=\"150\" height=\"150\" data-src=\"https://ecommerce-playground.lambdatest.io/image/cache/catalog/maza/demo/mz_poco/megastore-2/category/1-150x150.webp\" alt=\"Components\">",
+        "target": [
+          "img[alt=\"Components\"]"
+        ],
+        "failureSummary": "Fix all of the following:\n  Element contains <img> element with alt text that duplicates existing text"
+      },
+      {
+        "any": [],
+        "all": [],
+        "none": [
+          {
+            "id": "duplicate-img-label",
+            "data": null,
+            "relatedNodes": [],
+            "impact": "minor",
+            "message": "Element contains <img> element with alt text that duplicates existing text"
+          }
+        ],
+        "impact": "minor",
+        "html": "<img class=\"figure-img img-fluid lazy-load loader-spinner\" src=\"https://ecommerce-playground.lambdatest.io/image/cache/transparent-150x150.webp\" width=\"150\" height=\"150\" data-src=\"https://ecommerce-playground.lambdatest.io/image/cache/catalog/maza/demo/mz_poco/megastore-2/category/7-150x150.webp\" alt=\"Tablets\">",
+        "target": [
+          "img[alt=\"Tablets\"]"
+        ],
+        "failureSummary": "Fix all of the following:\n  Element contains <img> element with alt text that duplicates existing text"
+      },
+      {
+        "any": [],
+        "all": [],
+        "none": [
+          {
+            "id": "duplicate-img-label",
+            "data": null,
+            "relatedNodes": [],
+            "impact": "minor",
+            "message": "Element contains <img> element with alt text that duplicates existing text"
+          }
+        ],
+        "impact": "minor",
+        "html": "<img class=\"figure-img img-fluid lazy-load loader-spinner\" src=\"https://ecommerce-playground.lambdatest.io/image/cache/transparent-150x150.webp\" width=\"150\" height=\"150\" data-src=\"https://ecommerce-playground.lambdatest.io/image/cache/catalog/maza/demo/mz_poco/megastore-2/category/6-150x150.webp\" alt=\"Software\">",
+        "target": [
+          "img[alt=\"Software\"]"
+        ],
+        "failureSummary": "Fix all of the following:\n  Element contains <img> element with alt text that duplicates existing text"
+      },
+      {
+        "any": [],
+        "all": [],
+        "none": [
+          {
+            "id": "duplicate-img-label",
+            "data": null,
+            "relatedNodes": [],
+            "impact": "minor",
+            "message": "Element contains <img> element with alt text that duplicates existing text"
+          }
+        ],
+        "impact": "minor",
+        "html": "<img class=\"figure-img img-fluid lazy-load loader-spinner\" src=\"https://ecommerce-playground.lambdatest.io/image/cache/transparent-150x150.webp\" width=\"150\" height=\"150\" data-src=\"https://ecommerce-playground.lambdatest.io/image/cache/catalog/maza/demo/mz_poco/megastore-2/category/3-150x150.webp\" alt=\"Phones &amp; PDAs\">",
+        "target": [
+          "img[alt=\"Phones & PDAs\"]"
+        ],
+        "failureSummary": "Fix all of the following:\n  Element contains <img> element with alt text that duplicates existing text"
+      },
+      {
+        "any": [],
+        "all": [],
+        "none": [
+          {
+            "id": "duplicate-img-label",
+            "data": null,
+            "relatedNodes": [],
+            "impact": "minor",
+            "message": "Element contains <img> element with alt text that duplicates existing text"
+          }
+        ],
+        "impact": "minor",
+        "html": "<img class=\"figure-img img-fluid lazy-load loader-spinner\" src=\"https://ecommerce-playground.lambdatest.io/image/cache/transparent-150x150.webp\" width=\"150\" height=\"150\" data-src=\"https://ecommerce-playground.lambdatest.io/image/cache/catalog/maza/demo/mz_poco/megastore-2/category/3-150x150.webp\" alt=\"Cameras\">",
+        "target": [
+          "img[alt=\"Cameras\"]"
+        ],
+        "failureSummary": "Fix all of the following:\n  Element contains <img> element with alt text that duplicates existing text"
+      },
+      {
+        "any": [],
+        "all": [],
+        "none": [
+          {
+            "id": "duplicate-img-label",
+            "data": null,
+            "relatedNodes": [],
+            "impact": "minor",
+            "message": "Element contains <img> element with alt text that duplicates existing text"
+          }
+        ],
+        "impact": "minor",
+        "html": "<img class=\"figure-img img-fluid lazy-load loader-spinner\" src=\"https://ecommerce-playground.lambdatest.io/image/cache/transparent-150x150.webp\" width=\"150\" height=\"150\" data-src=\"https://ecommerce-playground.lambdatest.io/image/cache/catalog/maza/demo/mz_poco/megastore-2/category/4-150x150.webp\" alt=\"MP3 Players\">",
+        "target": [
+          "img[alt=\"MP3 Players\"]"
+        ],
+        "failureSummary": "Fix all of the following:\n  Element contains <img> element with alt text that duplicates existing text"
+      }
+    ]
+  },
+  {
+    "id": "landmark-one-main",
+    "impact": "moderate",
+    "tags": [
+      "cat.semantics",
+      "best-practice"
+    ],
+    "description": "Ensures the document has a main landmark",
+    "help": "Document should have one main landmark",
+    "helpUrl": "https://dequeuniversity.com/rules/axe/4.7/landmark-one-main?application=axeAPI",
+    "nodes": [
+      {
+        "any": [],
+        "all": [
+          {
+            "id": "page-has-main",
+            "data": null,
+            "relatedNodes": [],
+            "impact": "moderate",
+            "message": "Document does not have a main landmark"
+          }
+        ],
+        "none": [],
+        "impact": "moderate",
+        "html": "<html dir=\"ltr\" lang=\"en\">",
+        "target": [
+          "html"
+        ],
+        "failureSummary": "Fix all of the following:\n  Document does not have a main landmark"
+      }
+    ]
+  },
+  {
+    "id": "landmark-unique",
+    "impact": "moderate",
+    "tags": [
+      "cat.semantics",
+      "best-practice"
+    ],
+    "help": "Ensures landmarks are unique",
+    "description": "Landmarks should have a unique role or role/label/title (i.e. accessible name) combination",
+    "helpUrl": "https://dequeuniversity.com/rules/axe/4.7/landmark-unique?application=axeAPI",
+    "nodes": [
+      {
+        "any": [
+          {
+            "id": "landmark-is-unique",
+            "data": {
+              "role": "navigation",
+              "accessibleText": null
+            },
+            "relatedNodes": [
+              {
+                "html": "<nav class=\"navbar no-expand navbar-default bg-default vertical\">",
+                "target": [
+                  ".no-expand.navbar-default"
+                ]
+              },
+              {
+                "html": "<nav class=\"navbar navbar-expand-sm hoverable navbar-default bg-default horizontal\">",
+                "target": [
+                  ".navbar-expand-sm"
+                ]
+              }
+            ],
+            "impact": "moderate",
+            "message": "The landmark must have a unique aria-label, aria-labelledby, or title to make landmarks distinguishable"
+          }
+        ],
+        "all": [],
+        "none": [],
+        "impact": "moderate",
+        "html": "<nav class=\"navbar no-expand navbar-light bg-default vertical\">",
+        "target": [
+          ".navbar-light"
+        ],
+        "failureSummary": "Fix any of the following:\n  The landmark must have a unique aria-label, aria-labelledby, or title to make landmarks distinguishable"
+      }
+    ]
+  },
+  {
+    "id": "link-name",
+    "impact": "serious",
+    "tags": [
+      "cat.name-role-value",
+      "wcag2a",
+      "wcag412",
+      "wcag244",
+      "section508",
+      "section508.22.a",
+      "ACT",
+      "TTv5",
+      "TT6.a"
+    ],
+    "description": "Ensures links have discernible text",
+    "help": "Links must have discernible text",
+    "helpUrl": "https://dequeuniversity.com/rules/axe/4.7/link-name?application=axeAPI",
+    "nodes": [
+      {
+        "any": [
+          {
+            "id": "has-visible-text",
+            "data": null,
+            "relatedNodes": [],
+            "impact": "minor",
+            "message": "Element does not have text that is visible to screen readers"
+          },
+          {
+            "id": "aria-label",
+            "data": null,
+            "relatedNodes": [],
+            "impact": "serious",
+            "message": "aria-label attribute does not exist or is empty"
+          },
+          {
+            "id": "aria-labelledby",
+            "data": null,
+            "relatedNodes": [],
+            "impact": "serious",
+            "message": "aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty"
+          },
+          {
+            "id": "non-empty-title",
+            "data": {
+              "messageKey": "noAttr"
+            },
+            "relatedNodes": [],
+            "impact": "serious",
+            "message": "Element has no title attribute"
+          }
+        ],
+        "all": [],
+        "none": [
+          {
+            "id": "focusable-no-name",
+            "data": null,
+            "relatedNodes": [],
+            "impact": "serious",
+            "message": "Element is in tab order and does not have accessible text"
+          }
+        ],
+        "impact": "serious",
+        "html": "<a href=\"#section-244630449\" data-toggle=\"collapse\" role=\"button\" aria-expanded=\"false\" aria-controls=\"section-244630449\" class=\"icon-left icon text-reset\" target=\"_self\" aria-label=\"\"> <i class=\"icon fas fa-times\"></i> </a>",
+        "target": [
+          "a[href$=\"#section-244630449\"]"
+        ],
+        "failureSummary": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+      }
+    ]
+  },
+  {
+    "id": "page-has-heading-one",
+    "impact": "moderate",
+    "tags": [
+      "cat.semantics",
+      "best-practice"
+    ],
+    "description": "Ensure that the page, or at least one of its frames contains a level-one heading",
+    "help": "Page should contain a level-one heading",
+    "helpUrl": "https://dequeuniversity.com/rules/axe/4.7/page-has-heading-one?application=axeAPI",
+    "nodes": [
+      {
+        "any": [],
+        "all": [
+          {
+            "id": "page-has-heading-one",
+            "data": null,
+            "relatedNodes": [],
+            "impact": "moderate",
+            "message": "Page must have a level-one heading"
+          }
+        ],
+        "none": [],
+        "impact": "moderate",
+        "html": "<html dir=\"ltr\" lang=\"en\">",
+        "target": [
+          "html"
+        ],
+        "failureSummary": "Fix all of the following:\n  Page must have a level-one heading"
+      }
+    ]
+  },
+  {
+    "id": "region",
+    "impact": "moderate",
+    "tags": [
+      "cat.keyboard",
+      "best-practice"
+    ],
+    "description": "Ensures all page content is contained by landmarks",
+    "help": "All page content should be contained by landmarks",
+    "helpUrl": "https://dequeuniversity.com/rules/axe/4.7/region?application=axeAPI",
+    "nodes": [
+      {
+        "any": [
+          {
+            "id": "region",
+            "data": {
+              "isIframe": false
+            },
+            "relatedNodes": [],
+            "impact": "moderate",
+            "message": "Some page content is not contained by landmarks"
+          }
+        ],
+        "all": [],
+        "none": [],
+        "impact": "moderate",
+        "html": "<h5 class=\"flex-shrink-0 m-0 d-flex align-items-center gutters bg-primary text-primary-inverse\">Top categories <a data-toggle=\"mz-pure-drawer\" class=\"fas fa-times text-reset ml-auto\" href=\"#mz-component-1626147655\" aria-label=\"close\"></a></h5>",
+        "target": [
+          "#mz-component-1626147655 > .bg-primary.text-primary-inverse"
+        ],
+        "failureSummary": "Fix any of the following:\n  Some page content is not contained by landmarks"
+      },
+      {
+        "any": [
+          {
+            "id": "region",
+            "data": {
+              "isIframe": false
+            },
+            "relatedNodes": [],
+            "impact": "moderate",
+            "message": "Some page content is not contained by landmarks"
+          }
+        ],
+        "all": [],
+        "none": [],
+        "impact": "moderate",
+        "html": "<h5 class=\"flex-shrink-0 m-0 d-flex align-items-center gutters bg-primary text-primary-inverse\">Quick Links <a data-toggle=\"mz-pure-drawer\" class=\"fas fa-times text-reset ml-auto\" href=\"#mz-component-162614767\" aria-label=\"close\"></a></h5>",
+        "target": [
+          "#mz-component-162614767 > .bg-primary.text-primary-inverse"
+        ],
+        "failureSummary": "Fix any of the following:\n  Some page content is not contained by landmarks"
+      },
+      {
+        "any": [
+          {
+            "id": "region",
+            "data": {
+              "isIframe": false
+            },
+            "relatedNodes": [],
+            "impact": "moderate",
+            "message": "Some page content is not contained by landmarks"
+          }
+        ],
+        "all": [],
+        "none": [],
+        "impact": "moderate",
+        "html": "<div id=\"entry_217845\" data-id=\"217845\" class=\"entry-design design-alert flex-grow-0 flex-shrink-0\"><div class=\"alert alert-info \"> <p>Place here any module, widget, design or HTML. for example menu, categories</p></div></div>",
+        "target": [
+          "#entry_217845"
+        ],
+        "failureSummary": "Fix any of the following:\n  Some page content is not contained by landmarks"
+      },
+      {
+        "any": [
+          {
+            "id": "region",
+            "data": {
+              "isIframe": false
+            },
+            "relatedNodes": [],
+            "impact": "moderate",
+            "message": "Some page content is not contained by landmarks"
+          }
+        ],
+        "all": [],
+        "none": [],
+        "impact": "moderate",
+        "html": "<h5 class=\"flex-shrink-0 m-0 d-flex align-items-center gutters bg-secondary text-secondary-inverse\">Cart <a data-toggle=\"mz-pure-drawer\" class=\"fas fa-times text-reset ml-auto\" href=\"#cart-total-drawer\" aria-label=\"close\"></a></h5>",
+        "target": [
+          ".bg-secondary"
+        ],
+        "failureSummary": "Fix any of the following:\n  Some page content is not contained by landmarks"
+      },
+      {
+        "any": [
+          {
+            "id": "region",
+            "data": {
+              "isIframe": false
+            },
+            "relatedNodes": [],
+            "impact": "moderate",
+            "message": "Some page content is not contained by landmarks"
+          }
+        ],
+        "all": [],
+        "none": [],
+        "impact": "moderate",
+        "html": "<div id=\"entry_217847\" data-id=\"217847\" class=\"entry-widget widget-total flex-fill overflow-auto \">",
+        "target": [
+          "#entry_217847"
+        ],
+        "failureSummary": "Fix any of the following:\n  Some page content is not contained by landmarks"
+      },
+      {
+        "any": [
+          {
+            "id": "region",
+            "data": {
+              "isIframe": false
+            },
+            "relatedNodes": [],
+            "impact": "moderate",
+            "message": "Some page content is not contained by landmarks"
+          }
+        ],
+        "all": [],
+        "none": [],
+        "impact": "moderate",
+        "html": "<div class=\"carousel-item active\">",
+        "target": [
+          "#mz-carousel-213240 > .carousel-inner > .active.carousel-item"
+        ],
+        "failureSummary": "Fix any of the following:\n  Some page content is not contained by landmarks"
+      },
+      {
+        "any": [
+          {
+            "id": "region",
+            "data": {
+              "isIframe": false
+            },
+            "relatedNodes": [],
+            "impact": "moderate",
+            "message": "Some page content is not contained by landmarks"
+          }
+        ],
+        "all": [],
+        "none": [],
+        "impact": "moderate",
+        "html": "<div id=\"entry_213243\" class=\"entry-col col-12 order-md-1\">",
+        "target": [
+          "#entry_213243"
+        ],
+        "failureSummary": "Fix any of the following:\n  Some page content is not contained by landmarks"
+      },
+      {
+        "any": [
+          {
+            "id": "region",
+            "data": {
+              "isIframe": false
+            },
+            "relatedNodes": [],
+            "impact": "moderate",
+            "message": "Some page content is not contained by landmarks"
+          }
+        ],
+        "all": [],
+        "none": [],
+        "impact": "moderate",
+        "html": "<div class=\"mb-4 mb-lg-0\"><h4>Upto 50% Off on Fully Automatic Top Load Washing Machine</h4><p class=\"text-muted\">Many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected.</p></div>",
+        "target": [
+          ".mb-lg-0"
+        ],
+        "failureSummary": "Fix any of the following:\n  Some page content is not contained by landmarks"
+      },
+      {
+        "any": [
+          {
+            "id": "region",
+            "data": {
+              "isIframe": false
+            },
+            "relatedNodes": [],
+            "impact": "moderate",
+            "message": "Some page content is not contained by landmarks"
+          }
+        ],
+        "all": [],
+        "none": [],
+        "impact": "moderate",
+        "html": "<a href=\"#\" class=\"btn btn-lg btn-outline-primary ml-lg-auto flex-shrink-0\">SHOP NOW</a>",
+        "target": [
+          ".ml-lg-auto"
+        ],
+        "failureSummary": "Fix any of the following:\n  Some page content is not contained by landmarks"
+      },
+      {
+        "any": [
+          {
+            "id": "region",
+            "data": {
+              "isIframe": false
+            },
+            "relatedNodes": [],
+            "impact": "moderate",
+            "message": "Some page content is not contained by landmarks"
+          }
+        ],
+        "all": [],
+        "none": [],
+        "impact": "moderate",
+        "html": "<div id=\"entry_213249\" data-id=\"213249\" class=\"entry-widget widget-html flex-grow-0 align-self-center\"><h3 class=\"module-title\">Top Trending Categories</h3></div>",
+        "target": [
+          "#entry_213249"
+        ],
+        "failureSummary": "Fix any of the following:\n  Some page content is not contained by landmarks"
+      },
+      {
+        "any": [
+          {
+            "id": "region",
+            "data": {
+              "isIframe": false
+            },
+            "relatedNodes": [],
+            "impact": "moderate",
+            "message": "Some page content is not contained by landmarks"
+          }
+        ],
+        "all": [],
+        "none": [],
+        "impact": "moderate",
+        "html": "<div id=\"entry_213258\" data-id=\"213258\" class=\"entry-widget widget-html flex-grow-0 align-self-center\"><h3 class=\"module-title\">Top Products</h3></div>",
+        "target": [
+          "#entry_213258"
+        ],
+        "failureSummary": "Fix any of the following:\n  Some page content is not contained by landmarks"
+      },
+      {
+        "any": [
+          {
+            "id": "region",
+            "data": {
+              "isIframe": false
+            },
+            "relatedNodes": [],
+            "impact": "moderate",
+            "message": "Some page content is not contained by landmarks"
+          }
+        ],
+        "all": [],
+        "none": [],
+        "impact": "moderate",
+        "html": "<div id=\"entry_213260\" class=\"\">",
+        "target": [
+          "#entry_213260"
+        ],
+        "failureSummary": "Fix any of the following:\n  Some page content is not contained by landmarks"
+      },
+      {
+        "any": [
+          {
+            "id": "region",
+            "data": {
+              "isIframe": false
+            },
+            "relatedNodes": [],
+            "impact": "moderate",
+            "message": "Some page content is not contained by landmarks"
+          }
+        ],
+        "all": [],
+        "none": [],
+        "impact": "moderate",
+        "html": "<div id=\"entry_213263\" data-id=\"213263\" class=\"entry-widget widget-html \">",
+        "target": [
+          "#entry_213263"
+        ],
+        "failureSummary": "Fix any of the following:\n  Some page content is not contained by landmarks"
+      },
+      {
+        "any": [
+          {
+            "id": "region",
+            "data": {
+              "isIframe": false
+            },
+            "relatedNodes": [],
+            "impact": "moderate",
+            "message": "Some page content is not contained by landmarks"
+          }
+        ],
+        "all": [],
+        "none": [],
+        "impact": "moderate",
+        "html": "<h3 class=\"module-title\">Top Collection</h3>",
+        "target": [
+          ".tabs > .module-title"
+        ],
+        "failureSummary": "Fix any of the following:\n  Some page content is not contained by landmarks"
+      },
+      {
+        "any": [
+          {
+            "id": "region",
+            "data": {
+              "isIframe": false
+            },
+            "relatedNodes": [],
+            "impact": "moderate",
+            "message": "Some page content is not contained by landmarks"
+          }
+        ],
+        "all": [],
+        "none": [],
+        "impact": "moderate",
+        "html": "<ul class=\"nav nav-tabs nav-scroll mr-auto\">",
+        "target": [
+          ".nav-tabs"
+        ],
+        "failureSummary": "Fix any of the following:\n  Some page content is not contained by landmarks"
+      },
+      {
+        "any": [
+          {
+            "id": "region",
+            "data": {
+              "isIframe": false
+            },
+            "relatedNodes": [],
+            "impact": "moderate",
+            "message": "Some page content is not contained by landmarks"
+          }
+        ],
+        "all": [],
+        "none": [],
+        "impact": "moderate",
+        "html": "<div id=\"entry_213265\" data-id=\"213265\" class=\"entry-widget widget-banner \">",
+        "target": [
+          "#entry_213265"
+        ],
+        "failureSummary": "Fix any of the following:\n  Some page content is not contained by landmarks"
+      },
+      {
+        "any": [
+          {
+            "id": "region",
+            "data": {
+              "isIframe": false
+            },
+            "relatedNodes": [],
+            "impact": "moderate",
+            "message": "Some page content is not contained by landmarks"
+          }
+        ],
+        "all": [],
+        "none": [],
+        "impact": "moderate",
+        "html": "<h3 class=\"module-title\">Under @99</h3>",
+        "target": [
+          "#mz-product-listing-81213270 > .mz-tab-listing-header.d-flex > .module-title"
+        ],
+        "failureSummary": "Fix any of the following:\n  Some page content is not contained by landmarks"
+      },
+      {
+        "any": [
+          {
+            "id": "region",
+            "data": {
+              "isIframe": false
+            },
+            "relatedNodes": [],
+            "impact": "moderate",
+            "message": "Some page content is not contained by landmarks"
+          }
+        ],
+        "all": [],
+        "none": [],
+        "impact": "moderate",
+        "html": "<div id=\"entry_213271\" data-id=\"213271\" class=\"entry-widget widget-html flex-grow-0 align-self-center\"><h3 class=\"module-title\">From The Blog</h3></div>",
+        "target": [
+          "#entry_213271"
+        ],
+        "failureSummary": "Fix any of the following:\n  Some page content is not contained by landmarks"
+      }
+    ]
+  }
+]
