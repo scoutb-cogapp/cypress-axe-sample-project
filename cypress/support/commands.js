@@ -25,9 +25,14 @@
 // Cypress.Commands.overwrite('visit', (originalFn, url, options) => { ... })
 
 // Write accessibility test results to a file
-Cypress.Commands.add("writeA11yResults", (violations) => {
+function sanitizeUrl(url) {
+  return url.replace(/[^a-z0-9]/gi, "_").toLowerCase();
+}
+
+Cypress.Commands.add("writeA11yResults", (violations, page) => {
+  const sanitizedPage = sanitizeUrl(page);
   const dir = "a11y test results";
-  const fileName = `${dir}/a11yResults-${new Date()
+  const fileName = `${dir}/a11yResults-${sanitizedPage}-${new Date()
     .toISOString()
     .slice(0, 10)}_${new Date()
     .toLocaleTimeString("en-GB")
@@ -36,7 +41,8 @@ Cypress.Commands.add("writeA11yResults", (violations) => {
   cy.writeFile(fileName, violations, "utf8");
 });
 
-Cypress.Commands.add("writeA11ySummary", (violations) => {
+Cypress.Commands.add("writeA11ySummary", (violations, page) => {
+  const sanitizedPage = sanitizeUrl(page);
   const summary = violations.map((violation) => ({
     id: violation.id,
     description: violation.description,
@@ -44,7 +50,7 @@ Cypress.Commands.add("writeA11ySummary", (violations) => {
     nodes: violation.nodes.length,
   }));
   const dir = "a11y test results";
-  const fileName = `${dir}/a11ySummary-${new Date()
+  const fileName = `${dir}/a11ySummary-${sanitizedPage}-${new Date()
     .toISOString()
     .slice(0, 10)}_${new Date()
     .toLocaleTimeString("en-GB")
