@@ -1,6 +1,6 @@
 // describe("Accessibility", () => {
 //   it("should run accessibility audits", () => {
-//     cy.visit("https://ecommerce-playground.lambdatest.io/");
+//     cy.visit("/");
 //     cy.injectAxe();
 
 //     // //check entire page for all accessibility failures:
@@ -28,7 +28,7 @@
 
 describe("Accessibility", () => {
   it("should write accessibility audit results to file", () => {
-    cy.visit("https://ecommerce-playground.lambdatest.io/");
+    cy.visit("/");
     cy.injectAxe();
 
     // // check entire page and write to file:
