@@ -2,14 +2,19 @@
 
 This is a sample project I created to try out the cypress-axe library.
 
+There are two describe statements in the test file: the first one contains a number of tests that are run in the browser. You can see the outcome in the interface but they are not saved. The second describe statement contains also a number of tests and they are also run in the browser. but they are also saved to a file inside _a11y test results_.
+
+Enable and disable tests as needed. The list of pages to run tests on is defined in the beginning of the test file.
+
 ## Set up
 
 1. clone the project
 2. navigate to the project root directory
 3. run `npm install`
    (this will install the cypress-axe library and then peer dependencies)
-4. the base url is set in _cypress.config.js_. currently, all tests just run on the homepage
-5. use it like so: `npx cypress --version` or `npx cypress open`
+4. edit the **base url** and the **list of pages to test** in the beginning of the test file.
+5. pick which tests to run by commenting out tests in the test file.
+6. run it like so: `npx cypress --version` or `npx cypress open`
 
 ## Files of note
 
